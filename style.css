@@ -1,0 +1,39 @@
+
+body{
+    height:150vh;
+    background-color: rgb(99, 250, 217);
+    align-items: center;
+    justify-content: center;
+
+}
+
+#decrease_button,#increase_button{
+    cursor: pointer;
+    color:black;
+    font-weight: bold;
+    font-size:x-large;
+    width: 80px;
+    height: 80px
+    
+    
+}
+
+#number_counter{
+    font-weight: 800;
+    font-size: 40px;
+    font-style:normal;
+
+}
+
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap:3rem;
+    align-items: center;
+    border-radius: 500%;
+    font-weight: bold;
+    color:blueviolet;
+    cursor: pointer;
+   
+}
